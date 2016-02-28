@@ -1,5 +1,5 @@
 {
-  "name": "react-flux-app",
+  "name": "intro-to-react",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DevelopIntelligenceBoulder/react-flux-app.git"
+    "url": "git+https://github.com/training4developers/intro-to-react.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/DevelopIntelligenceBoulder/react-flux-app/issues"
+    "url": "https://github.com/training4developers/intro-to-react/issues"
   },
-  "homepage": "https://github.com/DevelopIntelligenceBoulder/react-flux-app#readme",
+  "homepage": "https://github.com/training4developers/intro-to-react#readme",
   "dependencies": {
     "bootstrap": "^3.3.6",
     "express": "^4.13.3",

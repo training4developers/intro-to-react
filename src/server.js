@@ -13,6 +13,11 @@ module.exports = function(options) {
 		app = express(),
 		server = http.createServer(app);
 
+	app.use(/.*map$/, function(req, res) {
+		res.writeHead(404);
+		res.end();
+	});
+
 	app.use(express.static(options.webServer.folder));
 
 	return {
