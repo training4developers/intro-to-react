@@ -1,0 +1,20 @@
+{
+	"webServer": {
+		"port": 8080,
+		"folder": "dist/www"
+	},
+	"logger": {
+		"transports": {
+			"console": {
+				"level": "debug",
+				"colorize": true,
+				"timeStamp": true
+			},
+			"file": {
+				"level": "debug",
+				"fileName": "dist/logs/server.log",
+				"timeStamp" : true
+			}
+		}
+	}
+}
